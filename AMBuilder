@@ -1,11 +1,12 @@
 # vim: set sts=2 ts=8 sw=2 tw=99 et ft=python:
 import os, sys
 
-projectName = 'S64TO32'
+projectName = 'SteamIDConverter'
 
 # smsdk_ext.cpp will be automatically added later
 sourceFiles = [
   'extension.cpp',
+  'SteamIDConverter.cpp'
 ]
 
 ###############

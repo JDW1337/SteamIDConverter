@@ -38,12 +38,12 @@
  */
 
 /* Basic information exposed publicly */
-#define SMEXT_CONF_NAME			"STEAM64TO32"
-#define SMEXT_CONF_DESCRIPTION	""
+#define SMEXT_CONF_NAME			"SteamIDConverter"
+#define SMEXT_CONF_DESCRIPTION	"Converts SteamID from one type to another"
 #define SMEXT_CONF_VERSION		"1.0"
 #define SMEXT_CONF_AUTHOR		"JDW"
-#define SMEXT_CONF_URL			"http://www.sourcemod.net/"
-#define SMEXT_CONF_LOGTAG		"S2"
+#define SMEXT_CONF_URL			"https://github.com/JDW1337"
+#define SMEXT_CONF_LOGTAG		"SIC"
 #define SMEXT_CONF_LICENSE		"GPL"
 #define SMEXT_CONF_DATESTRING	__DATE__
 

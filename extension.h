@@ -44,7 +44,7 @@
  * @brief Sample implementation of the SDK Extension.
  * Note: Uncomment one of the pre-defined virtual functions in order to use it.
  */
-class Sample : public SDKExtension
+class Extension : public SDKExtension
 {
 public:
 	/**
