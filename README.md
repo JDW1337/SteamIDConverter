@@ -1,5 +1,7 @@
 # SteamIDConverter
 
+Converts SteamID from one type to another
+
 # Example
 
 SteamIDConverter("STEAM_0:0:461672184", buffer, sizeof(buffer), STEAM3);
