@@ -4,7 +4,6 @@
 #include <regex>
 #include <string>
 #include <cstdint>
-#include <iostream>
 
 class SteamIDConverter
 {

@@ -1,5 +1,4 @@
 #include <string>
-#include <iostream>
 
 #include "SteamIDConverter.h"
 #include "SteamIDType.h"
