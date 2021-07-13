@@ -96,6 +96,6 @@ void SteamIDConverter::STEAM32TO64()
 
 void SteamIDConverter::SetOmega()
 {
-    omega = atoll((regex_replace(steamID, std::regex("^STEAM_([0-4]):([0-1]):([0-9]{1,10})$"), "$3")).c_str());
-    isHigh = regex_replace(steamID, std::regex("^STEAM_([0-4]):([0-1]):([0-9]{1,10})$"), "$2") == "1";
+    omega = atoll((std::regex_replace(steamID, std::regex("^STEAM_([0-4]):([0-1]):([0-9]{1,10})$"), "$3")).c_str());
+    isHigh = std::regex_replace(steamID, std::regex("^STEAM_([0-4]):([0-1]):([0-9]{1,10})$"), "$2") == "1";
 }
